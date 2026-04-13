@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(for f:*)",
+      "Bash(do)",
+      "Bash(echo \"===== $f =====\")",
+      "Read(//Users/veestar/service_reminder/**)",
+      "Bash(done)",
+      "Bash(echo \"FILE: $f\")",
+      "Bash(flutter pub:*)",
+      "Read(//Users/veestar/fvm/default/bin/**)",
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/veestar/**)",
+      "Bash(/Users/veestar/flutter/bin/flutter pub:*)",
+      "Bash(/Users/veestar/flutter/bin/flutter analyze:*)",
+      "Bash(flutter analyze:*)",
+      "Bash(~/development/flutter/bin/flutter analyze:*)",
+      "Bash(xargs ls:*)",
+      "Bash(find /Users/veestar/service_reminder/lib/features/reminders -name *.dart)",
+      "Bash(find /Users/veestar/service_reminder -type d -not -path */.* -not -path */build/* -not -path */.dart_tool/*)",
+      "Bash(grep -E \"\\\\.dart$\")",
+      "Bash(grep \"\\\\.dart$\")",
+      "Bash(grep -v \"^$\")"
+    ]
+  }
+}

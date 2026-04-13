@@ -1,0 +1,5 @@
+# Supabase local dev (`supabase start`). Hosted projects: Dashboard → Authentication
+# → Providers → Email → disable "Confirm email" for password sign-up without mail flow.
+
+[auth.email]
+enable_confirmations = false

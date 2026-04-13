@@ -1,0 +1,62 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+*~
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code — uncomment to ignore local launch/tasks (keep shared config in-repo if you prefer)
+# .vscode/
+
+# Flutter / Dart
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+/coverage/
+
+# Symbolication & obfuscation (release)
+app.*.symbols
+app.*.map.json
+
+# Android build outputs (Studio)
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android release signing — never commit real keystores or passwords
+/android/key.properties
+/android/*.jks
+/android/*.keystore
+
+# Local dart-define bundle (copy from dart_defines.example.json)
+/dart_defines.json
+
+# Generic secrets (if you add scripts or env files)
+.env
+.env.*
+!.env.example
+secrets.json
+*.pem
+
+# iOS / Xcode / CocoaPods: see ios/.gitignore (Flutter template)
